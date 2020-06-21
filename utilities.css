@@ -1,0 +1,46 @@
+/* Text Colors */
+.text-primary {
+  color: yellow;
+}
+.text-secondary {
+  color: blue
+}
+
+
+/* Text colors */
+.text-primary {
+  color:yellow
+}
+ .text-secondary {
+   color: #333;
+ }
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(233, 233, 115);
+    border: none;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .btn-primary {
+    background:
+    yellow;
+    color: white;
+    
+  }
+  .btn-secondary {
+    background:#333;
+    color: white;
+}
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
