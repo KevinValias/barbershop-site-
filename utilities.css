@@ -18,7 +18,7 @@
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
-    background-color: yellow;
+    background-color: #e9e973;
     border: none;
     border-radius: 5px;
   }
@@ -28,11 +28,11 @@
 
   .btn-primary, .bg-primary {
     background: #e9e973;
-    color: #fff;
+    color: #333;
   }
   .btn-secondary, .bg-secondary {
     background: #333;
-    color: #fff;
+    color: #e9e973;
   }
   .btn-dark, .bg-dark {
     background: #333;

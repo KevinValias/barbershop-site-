@@ -59,19 +59,19 @@ img {
   display: flex;
 }
 .navbar a:hover {
-border-bottom: yellow 2px solid;
+border-bottom: #e9e973 2px solid;
 }
 
 .logo {
-  height: 30%;
-  width: 30%;
+  background-image: url("./images/FadedBarber.png");
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-position: center top;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    height: 10%;
-    padding-bottom: 150px;
     
 }
 
@@ -130,8 +130,8 @@ height: 30vh;
     margin-bottom: 15px;
   }
   .icons i {
-    background-color: rgb(233, 233, 115);;
-    color: #fff;
+    background-color: rgb(233, 233, 115);
+    color: #333;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 15px;
