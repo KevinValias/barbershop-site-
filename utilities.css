@@ -1,6 +1,6 @@
 /* Text Colors */
 .text-primary {
-  color: yellow;
+  color: #e9e973;
 }
 .text-secondary {
   color: #e9e973
@@ -12,13 +12,17 @@
   color:yellow
 }
  .text-secondary {
-   color: #333;
+   color: white;
  }
   .btn {
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
+<<<<<<< HEAD
     background-color: yellow;
+=======
+    background-color: #e9e973;
+>>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
     border: none;
     border-radius: 5px;
   }
@@ -28,11 +32,19 @@
 
   .btn-primary, .bg-primary {
     background: #e9e973;
+<<<<<<< HEAD
     color: #fff;
   }
   .btn-secondary, .bg-secondary {
     background: #333;
     color: #fff;
+=======
+    color: #333;
+  }
+  .btn-secondary, .bg-secondary {
+    background: #333;
+    color: #e9e973;
+>>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
   }
   .btn-dark, .bg-dark {
     background: #333;
