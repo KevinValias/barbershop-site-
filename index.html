@@ -65,11 +65,7 @@
       </div>
     </section>
 
-<<<<<<< HEAD
-    <!-- About:Solutions -->
-=======
     <!-- About -->
->>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
     <section class="solutions flex-columns">
       <div class="row">
         <div class="column">
@@ -92,11 +88,7 @@
     </section>
 
     <!-- Cases -->
-<<<<<<< HEAD
-    <section id="cases" class="cases flex-grid section-padding">
-=======
     <section id="gallery" class="cases flex-grid section-padding">
->>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
       <header class="section-header">
         <h4>This is what we do</h4>
         <h2>The Fade Parade</h2>
@@ -148,11 +140,7 @@
       <div class="row">
         <div class="column">
           <div class="column-1">
-<<<<<<< HEAD
-            <img src="images/BlogPhoto.jpg" alt="">
-=======
             <img src="images/quil.jpg" alt="">
->>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
           </div>
           </div>
         <div class="column">
@@ -177,21 +165,6 @@
       </header>
       <div class="flex-items">
         <div>
-<<<<<<< HEAD
-          <img src="images/team/person1.jpg" alt="">
-          <h4>John Doe</h4>
-        <p>President</p>
-        </div>
-        <div>
-          <img src="images/team/person2.jpg" alt="">
-          <h4>Jane Doe</h4>
-        <p>Vice President</p>
-        </div>
-        <div>
-          <img src="images/team/person3.jpg" alt="">
-          <h4>Steve Smith</h4>
-        <p>Marketing Head</p>
-=======
           <img src="images/man1.jpg" alt="">
           <h4>Alex Fawnz</h4>
         <p>The Father</p>
@@ -205,20 +178,15 @@
           <img src="images/man3.jpg" alt="">
           <h4>Steve Smith</h4>
         <p>The Actor</p>
->>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
         </div>
 </div>
     </section>
 <!-- Contact -->
-    <section id="contact" class="contact flex-columns">
+    <section id="contact" class="contact flex-columns ">
       <div class="row">
         <div class="column">
           <div class="column-1">
-<<<<<<< HEAD
-            <img src="images/ContactPhoto.jpg" alt="">
-=======
             <img src="images/dialphone.jpg" alt="">
->>>>>>> 1a6aad6797121f6b769f1a34ad1567b1860e8115
           </div>
           </div>
         <div class="column">
@@ -298,6 +266,42 @@ if (this.hash !== '') {
   );
 }
 });
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
 </script>
 </body>
 </html>
